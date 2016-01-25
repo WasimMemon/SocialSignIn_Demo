@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:animateLayoutChanges="true"
+    tools:showIn="@layout/activity_main">
+
+    <FrameLayout
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginLeft="15dip">
+
+
+        <ImageView
+            android:id="@+id/img_userPic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_vector_user"
+            app:layout_collapseParallaxMultiplier="0.5"
+            app:layout_collapseMode="parallax"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginLeft="5dip"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:paddingTop="10dip"
+            android:textColor="@android:color/white"
+            android:paddingLeft="3dp"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_userName"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Medium Text"
+            android:padding="3dip"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_userEmail"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

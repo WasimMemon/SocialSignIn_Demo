@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Social SignIn</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- key -->
+    <string name="facebook_app_id">Your App Key</string>
+    <string name="twitter_app_id">Your App Key</string>
+
+    <string name="twitter_consumer_key">Your App Consumer Key</string>
+    <string name="twitter_secret_key">Your App Secret</string>
+
+
+
+    <string name="key_userModel">userModel</string>
+    <string name="key_userBundle">userBundle</string>
+
+    <string name="tw_logout_hint">Logout</string>
+
+    <string name="msg_noInternet">No internet connection available...</string>
+    
+    <!-- Preference -->
+    <string name="pref_login_identifier">LoginIdentifier</string>
+    <string name="pref_is_loggedin">isLoggedIn</string>
+
+</resources>

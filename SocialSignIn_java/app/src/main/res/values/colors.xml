@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="section_divider">#ededed</color>
+
+    <color name="silver">#C0C0C0</color>
+    <color name="windowBackground">#EEEEEE</color>
+
+    <color name="black_alpha_85">#85000000</color>
+
+    <color name="bg_gplus">#DD5044</color>
+    <color name="bg_fb">#47639E</color>
+    <color name="bg_twitter">#177EE5</color>
+    <color name="view_disable">#ededef</color>
+</resources>
